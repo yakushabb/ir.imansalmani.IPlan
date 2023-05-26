@@ -34,8 +34,8 @@
       "sources": [
         {
             "type" : "archive",
-            "url" : "https://github.com/iman-salmani/iplan/releases/download/v1.1.1/iplan-1.1.1.tar.gz",
-            "sha256" : "a8b2da014c5443bf306b088b77839100eaafe892cacb215cd8bfe6dc494304e7"
+            "url" : "https://github.com/iman-salmani/iplan/releases/download/1.2.0/iplan-1.2.0.tar.gz",
+            "sha256" : "0727b05dbe4831190d9bcc780c66a591b1414b1fb1c4ed07acfd89d33cc520ff"
         }
       ]
     }
