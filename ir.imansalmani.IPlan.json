@@ -1,7 +1,7 @@
 {
   "app-id": "ir.imansalmani.IPlan",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "44",
+  "runtime-version": "46",
   "sdk": "org.gnome.Sdk",
   "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
   "command": "iplan",
@@ -36,6 +36,10 @@
             "type" : "archive",
             "url" : "https://github.com/iman-salmani/iplan/releases/download/v1.9.2/iplan-1.9.2.tar.gz",
             "sha256" : "a7d654759068d12c1824758814ab8a898cf900ac99300432d5c60ec79de407ea"
+        },
+        {
+            "type" : "patch",
+            "path" : "fix_appdata.patch"
         }
       ]
     }

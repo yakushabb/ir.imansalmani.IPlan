@@ -1,0 +1,38 @@
+From 9ac28df78826bd1859283343c571e1d08900fe6b Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Wed, 5 Jun 2024 21:55:03 +0300
+Subject: [PATCH] appdata: Update appdata
+
+- Fix appdata papercuts
+---
+ data/ir.imansalmani.IPlan.metainfo.xml.in | 8 +++-----
+ 1 file changed, 3 insertions(+), 5 deletions(-)
+
+diff --git a/data/ir.imansalmani.IPlan.metainfo.xml.in b/data/ir.imansalmani.IPlan.metainfo.xml.in
+index 82deffa..28f82d4 100755
+--- a/data/ir.imansalmani.IPlan.metainfo.xml.in
++++ b/data/ir.imansalmani.IPlan.metainfo.xml.in
+@@ -42,11 +42,9 @@
+   <launchable type="desktop-id">ir.imansalmani.IPlan.desktop</launchable>
+   <url type="homepage">https://github.com/iman-salmani/iplan</url>
+   <url type="bugtracker">https://github.com/iman-salmani/iplan/issues</url>
++  <url type="vcs-browser">https://github.com/iman-salmani/iplan</url>
++  <url type="translate">https://github.com/iman-salmani/iplan/tree/main/po</url>
+   <developer_name>Iman Salmani</developer_name>
+-  <custom>
+-    <value key="Purism::form_factor">workstation</value>
+-    <value key="Purism::form_factor">mobile</value>
+-  </custom>
+   <requires>
+     <display_length compare="ge">480</display_length>
+   </requires>
+@@ -214,4 +212,4 @@
+       </description>
+     </release>
+   </releases>
+-</component>
+\ No newline at end of file
++</component>
+--
+libgit2 1.7.2
+
